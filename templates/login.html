@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Quantum Secure Login</h2>
+
+<form method="POST" action="/login">
+
+<label>Username</label>
+<br>
+<input type="text" name="username">
+<br><br>
+
+<label>Password</label>
+<br>
+<input type="password" name="password">
+<br><br>
+
+<button type="submit">Login</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

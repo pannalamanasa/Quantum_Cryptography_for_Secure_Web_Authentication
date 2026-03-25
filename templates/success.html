@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="box">
+
+<h2 class="success">
+Authentication Successful
+</h2>
+
+Session Key:
+<br>
+{{session}}
+
+<br><br>
+
+Generated Key:
+<br>
+{{key}}
+
+</div>
+
+</body>
+</html>
